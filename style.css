@@ -1,0 +1,459 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand span{
+    background-color: #b3b3b3;
+}
+
+.navbar-toggler-icon {
+    background-color: #b9b9b9;
+    padding: 1rem;
+}
+
+
+
+
+
+/* Estilos para las secciones */
+section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/*.py-5{
+    padding: 4rem 3rem 1rem 3rem!important;
+}*/
+
+.py-5 p{
+    color: rgb(128, 128, 128);
+}
+
+span{
+    background-color: rgb(255, 138, 185);
+    padding: 0.3rem;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.yo img{
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.065);
+    background:rgb(255, 255, 255);
+    padding: 0.7rem;
+    margin-left: 30%;
+}
+
+.yo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: white!important;
+}
+
+.conocimientos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+
+
+/*SECCIÓN MIS CONOCIMIENTOS*/
+
+.mis-conocimientos {
+    background-color: rgb(141, 115, 228);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    height: auto;
+}
+
+.contenedor-conocimientos {
+    flex: 1;
+    padding: 5rem;
+}
+
+.grafico-conocimientos {
+    flex: 0.5;
+    padding: 2rem 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 6rem;
+}
+
+.encabezado-conocimientos h1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.porcentaje {
+    color: #000000;
+}
+
+.parrafo-conocimientos p {
+    text-align: justify;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* skills de conocimientos */
+
+.icono-grafico {
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 3.3rem;
+}
+
+.detalles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.detalles h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(87, 87, 87);
+}
+
+.detalles span{
+    padding: 0.3rem 0.6rem;
+    background-color:rgb(252, 154, 194);
+}
+
+.menu-skills {
+    position: relative;
+    border: 1px solid rgba(161, 161, 161, 0.601);
+    border-radius: 20px;
+}
+
+.menu-skills div {
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+    transition: width 15s ease;
+}
+
+/* Animación de skills conocimientos */
+#html-menu {
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra {
+    100% {
+        width: 100%;
+    }
+}
+
+#css-menu {
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra {
+    100% {
+        width: 90%;
+    }
+}
+
+#javascript-menu {
+    animation: javascript-barra 2s forwards;
+}
+
+@keyframes javascript-barra {
+    100% {
+        width: 70%;
+
+    }
+}
+
+#photoshop-menu {
+    animation: photoshop-barra 2s forwards;
+}
+
+@keyframes photoshop-barra {
+    100% {
+        width: 100%;
+    }
+}
+
+#illustrator-menu {
+    animation: illustrator-barra 2s forwards;
+}
+
+@keyframes illustrator-barra {
+    100% {
+        width: 65%;
+    }
+}
+
+#after-effects-menu {
+    animation: after-effects-barra 2s forwards;
+}
+
+@keyframes after-effects-barra {
+    100% {
+        width: 65%;
+    }
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.041);
+}
+
+.publicacion {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.publicacion img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.publicacion img:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+
+.galeria_2 {
+    display: flex;
+    width: 85%;
+    margin: 1rem auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.041);
+}
+
+.publicacion_2{
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.publicacion_2 img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.imagen-ampliada {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+
+
+.sitio-web{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sitio-web h1{
+    margin-top: 3rem;
+}
+
+button{
+    background-color: white;
+    padding: 0.4rem 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.059);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+}
+
+button a img{
+    padding-left: 5px;
+    padding-right: 3px;
+    width: 33px;
+}
+
+.yo, .feed_1, .feed_2, .feed_3, .feed_4, .feed_5{
+    background: rgba(0, 0, 0, 0.046);
+    border-radius: 10px;
+    margin: 2rem 10%;
+}
+
+
+.palabras{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.palabras p{
+    font-size: 1rem;
+    margin: 2%;
+    width: auto;
+    padding: 0.3rem 1.5rem;
+    border-radius: 10px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11{
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.181);
+}
+
+.p1{
+    background: pink;
+}
+
+.p2 {
+    background: rgb(192, 236, 255);
+}
+
+.p3 {
+    background: rgb(249, 198, 127);
+}
+
+.p4 {
+    background: rgb(213, 213, 213);
+}
+
+.p5 {
+    background: rgb(222, 247, 190);
+}
+
+.p6 {
+    background: rgb(255, 244, 148);
+}
+.p7 {
+    background: rgb(242, 211, 248);
+}
+
+.p8{
+    background: rgb(239, 204, 156);
+}
+
+.p9{
+    background: rgb(215, 212, 255);
+}
+
+.p10{
+    background: rgb(193, 242, 228);
+}
+
+.p11{
+    background: rgb(181, 197, 255);
+}
+
+
+/* Estilos para los proyectos */
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.feed_5 .publicacion-5{
+
+}
+
+#contacto{
+    background-color: #ffbcec;
+}
+
+#contacto p{
+    color: rgb(102, 102, 102);
+}
+
+/* Estilos para los enlaces de navegación activos */
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos para los enlaces de navegación al pasar el cursor sobre ellos */
+.navbar-nav .nav-link:hover {
+    color: #333;
+}
